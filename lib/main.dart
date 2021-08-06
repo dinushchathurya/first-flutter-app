@@ -1,3 +1,4 @@
+import 'package:first_flutter_app/onboarding_one.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -8,13 +9,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: Text("Hello World!"),
-        ),
-        body: Center(
-          child: Text("Hi", style: TextStyle(fontSize: 80.0)),
-        ),
-      ),
+        body: OnBoardingOne()
+      ), 
     );
   }
 }
